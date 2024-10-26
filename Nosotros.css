@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 86px;
+    background: #FFFF;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 100px;
+}
+
+.logo {
+    margin-left: 70px;
+    margin-block: 1px;
+    height: 80px;
+}
+
+.navbar a {
+    display: block;
+    padding: 30px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: Arial Black;
+}
+
+.navbar a:hover {
+    background: #919191;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: Arial black;
+}
+
+.header {
+    height: 60vh !important;
+    width: 100%;
+    background: url(Asets/foto3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-block-start: 110px;
+    margin-inline-start: 600px;
+}
+
+.title {
+    padding-top: 60px;
+    color: black;
+    margin-block-end: 20px;
+    font-size: 30px;
+}
+
+.title3 {
+    color: rgb(255, 255, 255);
+    margin-block-end: 20px;
+    margin-block-start: 10px;
+    font-size: 30px;
+}
+
+
+.linea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    height: 2px;
+    margin-inline: 200px;
+}
+
+.pfo {
+    font-family: arial;
+    color: black;
+    margin-block-end: 60px;
+}
+
+.inicio {
+    color: gray;
+    margin-block-start: 10px;
+}
+
+.descripccion{
+    margin-block-start: 60px;
+}
+
+p {
+    font-size: 20px;
+    margin-block-start: 1em;
+    display: block;
+    align-items: baseline;
+    margin: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.medio {
+    color: #000000;
+    font-size: 30px;
+}
+
+.img {
+    margin-block-start: 20px;
+    height: 60vh !important;
+    width: 100%;
+    background: url(Asets/Img/REMODELACION.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.price {
+    margin-block-end: 0px;
+    background: #000000;
+    background-size: cover;
+    height: 500px;
+    padding: 30px;
+}
+
+img {
+    margin-block-start: 20px;
+    height: 200px;
+}
+
+.box-contenedor {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-contenedor .bos1 {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.bos1:hover {
+    margin-block-start: 10px;
+    border-radius:200px;
+}
+
+.foto {
+    box-shadow: 0 0 20px 0 rgb(141, 141, 141);
+    border-radius: 200px;
+    height: 300px;
+    width: 300px;
+}
+
+.parrafo3 {
+    margin-block-start: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 30px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.logofinal {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.parafo {
+    margin-block-start: 30px;
+    font-size: 20px;
+}
+
